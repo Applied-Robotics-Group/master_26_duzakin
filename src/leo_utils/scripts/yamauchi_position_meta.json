@@ -1,0 +1,578 @@
+[
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx-19.0_by19.0_01Apr_00h51",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx-19.0_by19.0_01Apr_04h10",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx-19.0_by19.0_23Apr_16h40",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx0.0_by0.0_06Apr_17h43",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx0.0_by0.0_06Apr_22h56",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx0.0_by0.0_23Apr_18h41",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx19.0_by-19.0_01Apr_02h44",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx19.0_by-19.0_06Apr_22h37",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx19.0_by-19.0_07Apr_10h48",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx19.0_by19.0_06Apr_16h13",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx19.0_by19.0_07Apr_03h16",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry-19.0_bx19.0_by19.0_23Apr_17h08",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx-19.0_by-19.0_01Apr_02h25",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx-19.0_by-19.0_06Apr_19h32",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx-19.0_by-19.0_06Apr_22h21",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx0.0_by0.0_01Apr_03h49",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx0.0_by0.0_06Apr_20h47",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx0.0_by0.0_07Apr_11h54",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 192.4,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx19.0_by-19.0_01Apr_02h55",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx19.0_by-19.0_07Apr_10h58",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx19.0_by-19.0_07Apr_11h43",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx19.0_by19.0_01Apr_01h50",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx19.0_by19.0_01Apr_05h03",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-19.0_ry19.0_bx19.0_by19.0_07Apr_12h31",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -19.0,
+    "router_y": 19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx-19.0_by-19.0_06Apr_17h00",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 296.8,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx-19.0_by-19.0_06Apr_22h10",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx-19.0_by-19.0_23Apr_14h53",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx-19.0_by19.0_01Apr_01h12",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx-19.0_by19.0_06Apr_15h52",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx-19.0_by19.0_23Apr_19h33",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx0.0_by0.0_01Apr_03h39",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx0.0_by0.0_06Apr_17h57",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.3,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx0.0_by0.0_07Apr_02h13",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx19.0_by-19.0_06Apr_17h20",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx19.0_by-19.0_06Apr_19h55",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx19.0_by-19.0_07Apr_01h25",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx19.0_by19.0_06Apr_19h00",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx19.0_by19.0_07Apr_03h36",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.3,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx-8.0_ry-18.0_bx19.0_by19.0_31Mar_19h51",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": -8.0,
+    "router_y": -18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx-19.0_by19.0_06Apr_23h59",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 595.8,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx-19.0_by19.0_07Apr_03h05",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx-19.0_by19.0_23Apr_19h54",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx19.0_by-19.0_01Apr_00h02",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx19.0_by-19.0_01Apr_03h13",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx19.0_by-19.0_06Apr_15h19",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 206.7,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx19.0_by19.0_06Apr_19h18",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 299.4,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx19.0_by19.0_06Apr_21h59",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 293.3,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx8.0_ry0.0_bx19.0_by19.0_07Apr_03h53",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 203.8,
+    "router_x": 8.0,
+    "router_y": 0.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx-19.0_by-19.0_06Apr_14h40",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx-19.0_by-19.0_07Apr_01h07",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx-19.0_by-19.0_23Apr_15h14",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx-19.0_by19.0_01Apr_04h32",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 348.4,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx-19.0_by19.0_06Apr_18h33",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx-19.0_by19.0_06Apr_23h52",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 449.5,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx0.0_by0.0_01Apr_00h41",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.5,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx0.0_by0.0_07Apr_02h30",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx0.0_by0.0_23Apr_16h35",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 310.7,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx19.0_by-19.0_01Apr_03h06",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 396.4,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx19.0_by-19.0_06Apr_15h09",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx18.0_ry18.0_bx19.0_by-19.0_06Apr_17h34",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 344.5,
+    "router_x": 18.0,
+    "router_y": 18.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx-19.0_by-19.0_01Apr_02h10",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx-19.0_by-19.0_06Apr_14h16",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx-19.0_by-19.0_07Apr_00h38",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx-19.0_by19.0_01Apr_01h02",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx-19.0_by19.0_06Apr_21h11",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx-19.0_by19.0_23Apr_19h23",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx0.0_by0.0_01Apr_03h28",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx0.0_by0.0_06Apr_20h30",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx0.0_by0.0_06Apr_23h07",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.7,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx19.0_by19.0_01Apr_01h34",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.4,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx19.0_by19.0_07Apr_03h26",
+    "folder": "session_yamauchi",
+    "termination": "timeout",
+    "duration_s": 599.8,
+    "router_x": 19.0,
+    "router_y": -19.0
+  },
+  {
+    "bag_name": "Recording_yamauchi_rx19.0_ry-19.0_bx19.0_by19.0_31Mar_19h45",
+    "folder": "session_yamauchi",
+    "termination": "router_found",
+    "duration_s": 305.4,
+    "router_x": 19.0,
+    "router_y": -19.0
+  }
+]

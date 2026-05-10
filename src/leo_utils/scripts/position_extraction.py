@@ -184,7 +184,7 @@ def extract_mode(session_root, mode, meta_file, out_dir):
 
     print(f"  [{mode}] {len(selected)} successful runs selected (from {len(meta)} in meta)")
 
-    rows, skipped = [], 0
+    rows, skipped, saved_meta = [], 0, []
     for i in selected:
         m        = meta[i]
         bag_path = os.path.join(session_root, m["folder"], m["bag_name"])
@@ -198,13 +198,19 @@ def extract_mode(session_root, mode, meta_file, out_dir):
             skipped += 1
             continue
         rows.append(row)
+        saved_meta.append(m)
 
     if not rows:
         print(f"  [{mode}] ERROR: no valid runs extracted.")
         return None
 
-    matrix = np.stack(rows)   # (n_runs, 1200, 2)
+    matrix = np.stack(rows)
     np.save(npy_path, matrix)
+    
+    meta_out_path = os.path.join(out_dir, f"{mode}_position_meta.json")
+    with open(meta_out_path, 'w') as f:
+        json.dump(saved_meta, f, indent=2)
+    
     print(f"  [{mode}] Saved {len(rows)} runs (skipped {skipped}). Shape: {matrix.shape}")
     return matrix
 
