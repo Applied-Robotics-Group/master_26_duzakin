@@ -7,7 +7,7 @@
 
 ## About
 
-This is my master's thesis project, completing my degree in Cybernetics and Autonomous Systems at the University of Oslo. The project compares three frontier-based exploration strategies for autonomous robot exploration in unknown environments, with the goal of locating a WiFi router as a stand-in for a radio signal source in search and rescue scenarios.
+This is my master's thesis project, completing my degree in Cybernetics and Autonomous Systems at the University of Oslo. The project compares three frontier-based exploration strategies for autonomous robots in unknown environments, with the goal of locating a WiFi router as a stand-in for a radio signal source in search-and-rescue scenarios.
 
 The robot uses SLAM Toolbox to map and localise itself, and Nav2 to navigate. The three strategies differ only in how they decide which frontier to explore next:
 
@@ -15,7 +15,7 @@ The robot uses SLAM Toolbox to map and localise itself, and Nav2 to navigate. Th
 - **Gao (2018)** — prefer frontiers aligned with the robot's current heading
 - **RSS-guided (inspired by Twigg, 2012)** — use WiFi signal strength to bias exploration toward the source
 
-I performed a comparative study across 72 simulation runs per strategy and validated the findings on a physical robot platform. The full thesis is available [here](link_to_thesis).
+I conducted a comparative study across 72 simulation runs for each strategy and validated the findings on a physical robot platform.
 
 ---
 
@@ -50,7 +50,7 @@ The platform is a **Leo Rover 1.8** extended with:
 
 ## Software Stack and Dependencies
 
-The system runs entirely on **Ubuntu 20.04** with **ROS2 Foxy**. The simulation can be run on any machine meeting these requirements. Physical robot deployment additionally requires a Raspberry Pi 4 running ROS1 (LeoOS), bridged to ROS2 via the `ros1_bridge` package.
+The system runs entirely on **Ubuntu 20.04** with **ROS2 Foxy**. The simulation can be run on any machine meeting these requirements.
 
 **Required for simulation:**
 - ROS2 Foxy
@@ -58,13 +58,12 @@ The system runs entirely on **Ubuntu 20.04** with **ROS2 Foxy**. The simulation 
 - SLAM Toolbox
 - Gazebo Classic
 
-**Additional requirements for physical robot:**
-- ROS1 Noetic (on the Leo Rover's Raspberry Pi)
+**Physical robot deployment** requires the full hardware setup described above, as well as:
+- ROS1 Noetic (on the Leo Rover's Raspberry Pi via LeoOS)
 - `ros1_bridge` (bridging odometry and velocity commands between ROS1 and ROS2)
 - Velodyne ROS2 driver
 
-The physical setup involves two separate ROS environments — one on the Jetson running ROS2, one on the rover's Raspberry Pi running ROS1 — communicating over the rover's WiFi hotspot. Setting this up is hardware-dependent and described in detail in the thesis.
-
+The physical setup involves two separate ROS environments communicating over the rover's WiFi hotspot and is hardware-dependent. Refer to the thesis for full setup details.
 ---
 
 ## Package Structure
