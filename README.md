@@ -23,24 +23,21 @@ I performed a comparative study across 72 simulation runs per strategy and valid
 
 The animations below show three runs per strategy under the same starting conditions. The filled circle is the start position, the star is the signal source. Notice how RSS consistently moves toward the target while the baselines explore without directional bias.
 
-<table>
-  <tr>
-    <th align="center">Yamauchi</th>
-    <th align="center">Gao</th>
-    <th align="center">RSS</th>
-  </tr>
-  <tr>
-    <td><img src="media/combo_8_animation.gif" width="300"/></td>
-    <td><img src="media/combo_16_animation.gif" width="300"/></td>
-    <td><img src="media/combo_23_animation.gif" width="300"/></td>
-  </tr>
-</table>
+<img src="media/combo_8_animation.gif" width="900"/>
+
+<img src="media/combo_16_animation.gif" width="900"/>
+
+<img src="media/combo_23_animation.gif" width="900"/>
 
 ---
 
 ## The Robot
 
-<img src="media/leo_right.jpg" width="500"/>
+<p align="center">
+  <img src="media/leo_right.jpg" width="440"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="media/leo_frames.png" width="340"/>
+</p>
 
 The platform is a **Leo Rover 1.8** extended with:
 - **Velodyne VLP-16** LiDAR as the primary sensor for SLAM
@@ -48,10 +45,6 @@ The platform is a **Leo Rover 1.8** extended with:
 - **Alfa AWUS036ACS** USB WiFi adapter for ROS2 communication
 - Built-in **RTL8822CE** WiFi card for RSS signal measurement
 - **TP-Link WR840N** router as the signal source
-
-<img src="media/leo_frames.png" width="400"/>
-
-The coordinate frames of the robot model, showing the relationship between the base link, chassis, Jetson mount, and Velodyne LiDAR.
 
 ---
 
