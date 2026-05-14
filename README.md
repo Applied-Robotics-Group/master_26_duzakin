@@ -1,96 +1,44 @@
 # Not All Frontiers Are Equal
 ### Comparing Frontier Selection Strategies Using the Leo Rover
 
-![Hero GIF](media/combo_X_animation.gif)
+![Hero](media/combo_23_animation.gif)
+
+An autonomous mobile robot that explores unknown environments using frontier-based exploration, guided by WiFi signal strength to locate a signal source. Three frontier selection strategies are implemented and compared: **Yamauchi** (nearest frontier), **Gao** (heading-weighted), and **RSS-guided** (signal-aware). Built on ROS2, Nav2, and SLAM Toolbox, and evaluated in both simulation and on a physical Leo Rover platform.
+
+The full thesis is available [here](link_to_thesis).
 
 ---
 
-## Overview
+## Exploration in Action
 
-This repository implements and compares three frontier-based exploration strategies on a physical mobile robot platform. The robot explores an unknown environment autonomously, and the question is simple: **does it matter how you choose which frontier to explore next?**
-
-The three strategies compared are:
-- **Yamauchi** — always go to the nearest frontier
-- **Gao** — prefer frontiers aligned with the robot's current heading
-- **RSS-guided** — use WiFi signal strength to bias exploration toward a signal source
-
-RSS-guided frontier selection was evaluated against both baselines in simulation across 72 runs per strategy, and validated on a physical robot platform. The results show that signal-aware selection makes a substantial difference — not just in finding the target, but in how deliberately the robot moves toward it.
-
-This work is the result of a master's thesis at the University of Oslo (2026). The full thesis is available [here](link_to_thesis).
-
----
-
-## The Platform
-
-![Leo Rover](media/leo_rover.png)
-
-| Component | Model |
-|---|---|
-| Mobile robot | Leo Rover 1.8 |
-| LiDAR | Velodyne VLP-16 |
-| Onboard computer | Raspberry Pi 4 |
-| Edge computer | Jetson Orin Nano 8GB |
-| WiFi adapter | Alfa AWUS036ACS |
-| Signal source | TP-Link WR840N router |
-
----
-
-## How It Works
-
-![Software Pipeline](media/software_pipeline.png)
-
-The system runs a continuous loop: the LiDAR feeds point cloud data into SLAM Toolbox, which produces an occupancy map and pose estimate. Frontier cells — boundaries between known free space and unknown space — are detected and clustered. Each frontier is scored according to the active strategy, and the highest-scoring frontier is sent to Nav2 as the next navigation goal.
-
-The key difference between strategies is the scoring function. RSS-guided selection adds a fourth term: alignment with the estimated WiFi gradient direction, pointing toward the signal source.
-
----
-
-## Results
-
-### Exploration Behaviour
-
-The animations below show three runs per strategy for the same starting configuration. Yamauchi (blue) and Gao (green) explore without directional bias. RSS (red) consistently moves toward the target.
+Three runs per strategy, same starting conditions. The filled circle is the start position, the star is the signal source.
 
 | Yamauchi | Gao | RSS |
-|---|---|---|
-| ![Combo A](media/combo_A_animation.gif) | ![Combo B](media/combo_B_animation.gif) | ![Combo C](media/combo_C_animation.gif) |
-
-> Each panel shows 3 runs in different shades. The filled circle is the start position, the star is the signal source.
-
-### Success Rate
-
-![Success Rate](media/success_rate.png)
-
-RSS achieved a success rate of **58.1%** in simulation, compared to 24.4% for Gao and 16.1% for Yamauchi.
-
-### Progression
-
-![Progression](media/progression.png)
-
-RSS reaches roughly **66% of the way to the target** on average within the 600-second window, compared to 28% for Yamauchi and 19% for Gao.
+|:---:|:---:|:---:|
+| ![Combo 8](media/combo_8_animation.gif) | ![Combo 16](media/combo_16_animation.gif) | ![Combo 23](media/combo_23_animation.gif) |
 
 ---
 
-## Repository Structure
+## The Robot
 
-```
-src/
-├── leo_bringup/       # Master launch files
-├── leo_description/   # URDF robot model
-├── leo_exploration/   # Frontier detection, exploration strategies, RSS node
-├── leo_gazebo/        # Simulation world
-├── leo_nav2/          # Nav2 configuration
-├── leo_slam/          # SLAM Toolbox configuration
-├── leo_teleop/        # Gamepad teleoperation
-├── leo_utils/         # Analysis and recording scripts
-└── leo_velodyne/      # Velodyne LiDAR driver configuration
-```
+![Leo Rover](media/leo_right.jpg)
+
+Leo Rover 1.8 with a Velodyne VLP-16 LiDAR and Jetson Orin Nano 8GB for onboard compute. A TP-Link router serves as the WiFi signal source.
 
 ---
 
-## Setup
+## Dependencies
 
-**Dependencies:** ROS2 Foxy, Nav2, SLAM Toolbox, Gazebo Classic
+- ROS2 Foxy
+- Nav2
+- SLAM Toolbox
+- Gazebo Classic
+- `ros1_bridge` (for physical robot only)
+- `velodyne` ROS2 driver (for physical robot only)
+
+---
+
+## Install
 
 ```bash
 git clone https://github.com/lukasderia/ros2_leo_ws
@@ -98,6 +46,10 @@ cd ros2_leo_ws
 colcon build
 source install/setup.bash
 ```
+
+---
+
+## Run
 
 ### Simulation
 
@@ -117,19 +69,26 @@ On the laptop:
 ros2 launch leo_bringup laptop_full.launch.py
 ```
 
-The exploration mode is set via a parameter at launch. Modes: `0` = Yamauchi, `1` = Gao, `2` = RSS.
+Exploration mode is set as a launch parameter: `0` = Yamauchi, `1` = Gao, `2` = RSS.
 
 ---
 
-## Citation
-
-If you use this work, please cite:
+## Package Structure
 
 ```
-Düzakin, L. D. L. (2026). Not All Frontiers Are Equal: Comparing Frontier Selection
-Strategies Using the Leo Rover. Master's thesis, University of Oslo.
+src/
+├── leo_bringup/       # Master launch files for sim and physical robot
+├── leo_description/   # URDF robot model
+├── leo_exploration/   # Frontier detection, selection strategies, RSS node
+├── leo_gazebo/        # Simulation world
+├── leo_nav2/          # Nav2 configuration
+├── leo_slam/          # SLAM Toolbox configuration
+├── leo_teleop/        # Gamepad teleoperation
+├── leo_utils/         # Data recording and analysis scripts
+└── leo_velodyne/      # Velodyne LiDAR driver configuration
 ```
 
 ---
 
-*Department of Technology Systems, University of Oslo, Spring 2026*
+*Master's thesis — Department of Technology Systems, University of Oslo, Spring 2026*  
+*Lukas Deria Lewe Düzakin, supervised by Tønnes Nygaard*
