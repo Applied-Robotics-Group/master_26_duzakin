@@ -34,9 +34,9 @@ The animations below show three runs per strategy under the same starting condit
 ## The Robot
 
 <p align="center">
-  <img src="media/leo_right.jpg" width="340"/>
+  <img src="media/leo_right.jpg" height="340"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="media/leo_frames.png" width="340"/>
+  <img src="media/leo_frames.png" height="340"/>
 </p>
 
 The platform is a **Leo Rover 1.8** extended with:
