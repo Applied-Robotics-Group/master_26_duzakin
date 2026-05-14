@@ -34,7 +34,7 @@ The animations below show three runs per strategy under the same starting condit
 ## The Robot
 
 <p align="center">
-  <img src="media/leo_right.jpg" width="440"/>
+  <img src="media/leo_right.jpg" width="340"/>
   &nbsp;&nbsp;&nbsp;
   <img src="media/leo_frames.png" width="340"/>
 </p>
